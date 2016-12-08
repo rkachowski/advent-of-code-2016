@@ -1,4 +1,3 @@
-require 'pry-byebug'
 @input = File.open("input").readlines.map { |l| l.match(/\s*(\d+)\s*(\d+)\s*(\d*)/).captures unless l.strip.empty? }
 
 def process
